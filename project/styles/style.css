@@ -1,6 +1,14 @@
 body {
 	background-color: #f8f8f8;
 }
+input{
+	width: 200px;
+	height:30px;
+	text-transform: capitalize;
+}
+.menu li a:hover {
+    color: #1896FF;
+}
 .menu li {
 	font-style: italic;
 	font-size: 20px;
@@ -14,7 +22,7 @@ body {
 }
 .text2{
 	color: #707070;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: italic;
 	line-height: 16px;
 }
@@ -36,17 +44,50 @@ body {
 	font-family: Verdana;
 	list-style-type: lower-greek;
 }
-input{
-	width: 200px;
-	height:30px;
-}
 .field{
-	color: #800000; 
+	background-color: yellow;
+	color: blue; 
 }
 .brd{
 	border-color: blue;
 	border-style: dashed;
 }
+.brd:hover{
+	border-color: transparent;
+}
 .align{
 	text-align: center;
+}
+.logo{
+	width: 60px;
+	height: 60px; 
+}
+.header{
+	border: dotted 2px black;
+}
+.footer{
+	border: dotted 2px blue;
+}
+.first:first-letter{
+	font-family: "Times New Roman", Times, serif;
+    font-size: 200%; 
+    color: red;
+}
+table{
+	font-family: sans-serif;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 5px;
+	background: #ece9e0;
+	color: #656665; 
+	border: 16px solid #ece9e0;
+	border-radius: 20px;
+}
+th{
+	font-size: 18px;
+	padding: 10px;
+}
+td{
+	background: #f5d7bf;
+	padding: 10px;
 }
